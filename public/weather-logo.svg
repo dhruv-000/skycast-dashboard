@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Weather Dashboard Logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <circle cx="25" cy="25" r="11" fill="url(#sun)" />
+  <g fill="#e0f2fe">
+    <ellipse cx="36" cy="37" rx="13" ry="8" />
+    <ellipse cx="25" cy="39" rx="8" ry="6" />
+  </g>
+  <path d="M18 47c4.5 3.4 9.3 3.4 14 0" fill="none" stroke="#e2e8f0" stroke-width="2.6" stroke-linecap="round" />
+</svg>
