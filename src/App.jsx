@@ -264,7 +264,7 @@ function App() {
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <img
-                src="/weather-logo.svg"
+                src={`${import.meta.env.BASE_URL}weather-logo.svg`}
                 alt="Weather Dashboard logo"
                 className="h-11 w-11 rounded-2xl border border-white/20 bg-white/10 p-1 shadow-lg"
               />
